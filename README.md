@@ -8,7 +8,7 @@ The tool itself is not part of this repository.
 
 ![Terminal replay of the pipeline](docs/img/replay.gif)
 
-[Watch the same replay with a voice-over (MP4, about 1 minute 45 seconds)](docs/img/replay.mp4)
+Watch with a voice-over: [short cut, 47 seconds](docs/img/replay-short.mp4) or [full version, 1 minute 45 seconds](docs/img/replay.mp4).
 
 _The replay is a rendering of real output from the run described below. It is not a live recording._
 
@@ -61,9 +61,12 @@ tool reported four product defects and did not edit the tests to pass. See the
 
 **Two runs, shown separately.** The replay and the numbers above refer to two different runs of the same suite:
 
-- *First run:* 20 passed, 6 repaired automatically, 4 product defects, 4 script defects left, 2 tests not run.
+- *First run of the 37-test design:* 27 passed, 4 repaired automatically, 4 reported as product defects, 2 script
+  defects left, 0 not run (27 + 4 + 4 + 2 + 0 = 37). Of those 4 "defects", three were the role checks below and one
+  was a test that expected 200 where the application correctly answers 204: a script error that was counted as a
+  defect and fixed afterwards.
 - *Final run, after fixing the remaining script problems:* 33 passed, 0 repaired, 4 product defects, 0 script
-  defects left, 0 not run.
+  defects left, 0 not run (33 + 4 = 37).
 
 ## Samples
 

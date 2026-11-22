@@ -34,6 +34,8 @@ reason.
 **5. Generate the suite.** The designed tests become a Robot Framework suite, one reusable keyword per distinct step.
 The suite is ordinary, readable Robot Framework that a team can own and edit.
 
+**5b. Screens as well as the API.** When the application has screens, the tool reads their templates together with the back end, so the rules and tests can cover what the user sees: messages, buttons, navigation. Screen tests use one small, neutral set of actions (open a page, click, type, read text), and a single setting chooses the browser library underneath, Playwright or Selenium. The tests themselves do not change, so a client can keep the library they already use. Data for a test is prepared and removed through the API, which keeps screen tests fast and repeatable.
+
 **6. Run and sort the failures.** The suite is run against the live application. Every failure is sorted:
 
 - the environment could not be reached;

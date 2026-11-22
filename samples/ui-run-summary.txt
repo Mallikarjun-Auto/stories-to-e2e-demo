@@ -1,0 +1,23 @@
+Final runs of the 50 generated screen-and-API tests (EPIC-4 Owner screens) against the live Spring PetClinic
+REST API and its Angular front-end. The same suite ran twice; only one setting changed. Lines are cut at 200
+characters.
+
+## Playwright (Robot Framework Browser library)
+
+Result
+  passed 44  healed 0  product defects 3  unresolved script defects 3  environment 0  not run 0
+  DEFECT TC-EPIC-4-ST-1-08: Call answered 200, expected 401 or 403; all statuses: [200, 200, 201, 204]
+  DEFECT TC-EPIC-4-ST-1-39: Unexpected status; body: {"firstName":"Betty","lastName":"Davis","address":"638 Cardinal Ave.","city":"Sun Prairie","telephone":"6085551749","pets":[]
+  DEFECT TC-EPIC-4-ST-2-14: GET /owners answered 200, expected 401 or 403
+  design success: 100% covered, 0% provisional
+  wrote the defect report and a run summary
+
+## Selenium (SeleniumLibrary)
+
+Result
+  passed 44  healed 0  product defects 3  unresolved script defects 3  environment 0  not run 0
+  DEFECT TC-EPIC-4-ST-1-08: Call answered 200, expected 401 or 403; all statuses: [200, 200, 201, 204]
+  DEFECT TC-EPIC-4-ST-1-39: Unexpected status; body: {"firstName":"Betty","lastName":"Davis","address":"638 Cardinal Ave.","city":"Sun Prairie","telephone":"6085551749","pets":[]
+  DEFECT TC-EPIC-4-ST-2-14: GET /owners answered 200, expected 401 or 403
+  design success: 100% covered, 0% provisional
+  wrote the defect report and a run summary

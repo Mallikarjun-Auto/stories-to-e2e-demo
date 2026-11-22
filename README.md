@@ -140,4 +140,4 @@ Screen tests:
   quote paths, wording and screens from their public source. They are not part of this repository.
 - Built with [Claude Code](https://claude.com/claude-code).
 - Questions or work enquiries: LinkedIn **MALLIKARJUN B N**, email mallikarjunbn534@gmail.com, or
-  [Mallikarjun-Auto on GitHub](https://github.com/Mallikarjun-Auto).
+  [Mallikarjun-bn on GitHub](https://github.com/Mallikarjun-bn).

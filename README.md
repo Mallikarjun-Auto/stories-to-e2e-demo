@@ -91,4 +91,5 @@ tool reported four product defects and did not edit the tests to pass. See the
 - Demo target: [Spring PetClinic REST](https://github.com/spring-petclinic/spring-petclinic-rest) (Apache-2.0). The
   samples quote paths and wording from its public source. It is not part of this repository.
 - Built with [Claude Code](https://claude.com/claude-code).
-- Questions or work enquiries: [Mallikarjun-Auto on GitHub](https://github.com/Mallikarjun-Auto).
+- Questions or work enquiries: LinkedIn **MALLIKARJUN B N**, email mallikarjunbn534@gmail.com, or
+  [Mallikarjun-Auto on GitHub](https://github.com/Mallikarjun-Auto).

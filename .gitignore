@@ -1,0 +1,32 @@
+# secrets and local settings: never upload
+.env
+.env.*
+!.env.example
+.claude/
+
+# run output: logs, Robot reports, results of a run
+results/
+output.xml
+log.html
+report.html
+selenium-*.log
+geckodriver*.log
+*.log
+
+# caches and build output
+.cache/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/
+venv/
+
+# editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*

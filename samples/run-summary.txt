@@ -1,0 +1,10 @@
+Final run of the generated suite against Spring PetClinic REST (run 14). Lines are cut at 200 characters.
+
+Result
+  passed 33  healed 0  product defects 4  unresolved script defects 0  environment 0  not run 0
+  DEFECT TC-EPIC-1-ST-1-21: Unexpected status; body: {"firstName":"George","lastName":"Forbiddenqzx","address":"1 Changed St.","city":"Madison","telephone":"6085551023","pets":[]
+  DEFECT TC-EPIC-1-ST-2-16: Unexpected status; body: [{"firstName":"Betty","lastName":"Davis","address":"638 Cardinal Ave.","city":"Sun Prairie","telephone":"6085551749","pets":[
+  DEFECT TC-EPIC-1-S3-08: Unexpected status; body: {"firstName":"George","lastName":"Franklin","address":"110 W. Liberty St.","city":"Madison","telephone":"6085551023","pets":[
+  DEFECT TC-EPIC-1-E-16: Expected the request to be refused with 401 or 403, got 201; body: {"firstName":"George","lastName":"Zqegjnumak","address":"110 W. Liberty St.","city"
+  design success: 100% covered, 0% provisional
+  wrote the defect report and a run summary

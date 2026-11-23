@@ -82,7 +82,7 @@ exactly 10 digits"._
 The application's own code says that role is required, but the application as started enforces no roles, so it
 accepts the request. The tool reported 3 product defects in the screens run and 4 in the API run, and did not edit
 any test to pass. In the screens run, 3 more tests fail for the same reason but their checks sit inside an action
-step, so the tool lists them as "unresolved script defects" instead of product defects See the
+step, so the tool lists them as "unresolved script defects" instead of product defects. See the
 [defect report](samples/ui-defect-report.md).
 
 **A second finding, made on the way.** Deleting an owner who still has pets silently deletes the pet types those pets

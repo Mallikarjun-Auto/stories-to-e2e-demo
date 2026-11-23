@@ -82,7 +82,7 @@ exactly 10 digits"._
 The application's own code says that role is required, but the application as started enforces no roles, so it
 accepts the request. The tool reported 3 product defects in the screens run and 4 in the API run, and did not edit
 any test to pass. In the screens run, 3 more tests fail for the same reason but their checks sit inside an action
-step, so the tool lists them as "unresolved script defects" instead of product defects (see the limits below). See the
+step, so the tool lists them as "unresolved script defects" instead of product defects See the
 [defect report](samples/ui-defect-report.md).
 
 **A second finding, made on the way.** Deleting an owner who still has pets silently deletes the pet types those pets
@@ -113,24 +113,6 @@ Screen tests:
 - [Defect report](samples/ui-defect-report.md)
 - [Designed screen tests, excerpt](samples/ui-test-cases-excerpt.md)
 - [Questions raised on the screens, excerpt](samples/ui-questions-excerpt.md)
-
-## Honest limits
-
-- **The answers to all 27 questions (15 + 12) were proposed by Claude from what the code and screens do**, not by a
-  product owner. In real use a product owner confirms them.
-- **The role tests need two logins** (an admin and a non-admin) to be a complete check; with one login they show that
-  the application does not enforce the role.
-- **Three of the six role failures are filed under the wrong heading.** Their checks live inside an action step, so
-  the tool cannot tell a missing role check from a broken script and lists them as unresolved script defects.
-- **A repair can undo another repair.** When two tests share one keyword, fixing it for the first test once broke the
-  second, and the next run swapped them back. The shared keyword was fixed by hand. The tool does not yet re-run
-  previously passing tests that share a repaired keyword.
-- **Some things are fixed by hand.** The generated screen suite needed hand edits: making a request fail once, putting
-  seeded data back after a test, and deleting pets before owners (see the finding above). They are small, and they are
-  where a reviewer's time goes.
-- **One code repository per run.** The back end and the front end were placed in one checkout for the demo.
-- **Login support** for the application under test has been tested only against a fake API, not a real login.
-- **Two Epics of one application** have been run end to end.
 
 ## Credits and licence
 

@@ -50,6 +50,7 @@ observed, the steps to reproduce and the data used.
 
 ## Why this design
 
+- **AI drafts, plain code verifies.** The AI extracts rules, designs tests and proposes repairs. The coverage check, the sorting of failures and the ban on changing assertions are ordinary code, not left to the AI.
 - **Rules first** makes coverage measurable and makes requirement-versus-code disagreements visible.
 - **A person stays in the loop** at the one place where judgement is needed: the questions.
 - **Assertions are protected**, so the automatic repair cannot hide a real bug.

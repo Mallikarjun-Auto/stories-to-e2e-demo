@@ -1,6 +1,6 @@
 # Stories to E2E: demo
 
-Turn written requirements (Epics and Stories) plus the application's code into **reviewed, executable end-to-end
+An **AI-assisted** tool that turns written requirements (Epics and Stories) plus the application's code into **reviewed, executable end-to-end
 tests**, for the API **and the screens**. Run them, repair script mistakes automatically, and report real product bugs.
 The browser tests run on **Playwright or Selenium**: the client picks one, the tests stay the same.
 
@@ -17,7 +17,7 @@ _The replay is a rendering of real output from the runs described below. It is n
 
 ```mermaid
 flowchart LR
-    A[Epic and Stories] --> C[Design]
+    A[Epic and Stories] --> C[AI-assisted design]
     B[Application code<br/>API and screens] --> C
     C --> D[Rules and designed tests<br/>questions for a person]
     D --> E[Robot Framework suite]
@@ -36,7 +36,7 @@ flowchart LR
    one neutral set of actions, so the same suite runs on **Playwright** or on **Selenium** with a single setting.
 5. **Runs it** against the live application and sorts every failure: environment problem, script mistake, or
    product defect.
-6. **Repairs script mistakes** by itself. It never changes or removes an assertion, so a green result means the
+6. **Repairs script mistakes** by itself (the AI proposes, plain code checks). It never changes or removes an assertion, so a green result means the
    application really behaves as specified.
 7. **Reports product defects** with what was expected, what happened and steps to reproduce.
 

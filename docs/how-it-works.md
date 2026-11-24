@@ -48,6 +48,10 @@ or remove an assertion. A product defect is never "fixed" by editing the test: i
 **8. Report.** Product defects go into a defect report with the rules involved, what was expected, what was
 observed, the steps to reproduce and the data used.
 
+**9. Run continuously.** Because the suite is plain Robot Framework, a CI system (Jenkins, GitHub Actions, GitLab CI)
+can run it nightly or on every change against a test environment, using the same triage. Failures come back as the same
+defect report, archived with each run. Only creating and repairing the suite needs the AI; the scheduled runs do not.
+
 ## Why this design
 
 - **AI drafts, plain code verifies.** The AI extracts rules, designs tests and proposes repairs. The coverage check, the sorting of failures and the ban on changing assertions are ordinary code, not left to the AI.

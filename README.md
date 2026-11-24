@@ -26,6 +26,7 @@ flowchart LR
     G --> F
     F -->|real bug| H[Defect report]
     F -->|pass| I[Results and pull request]
+    E -.-> J[Nightly in CI: Jenkins, GitHub Actions, GitLab CI]
 ```
 
 1. **Reads the requirements and the code** (API and screen templates) and extracts the business rules, noting
@@ -39,6 +40,8 @@ flowchart LR
 6. **Repairs script mistakes** by itself (the AI proposes, plain code checks). It never changes or removes an assertion, so a green result means the
    application really behaves as specified.
 7. **Reports product defects** with what was expected, what happened and steps to reproduce.
+8. **Runs continuously.** The suite is plain Robot Framework, so it runs nightly or on every change in Jenkins (open
+   source), GitHub Actions or GitLab CI, and the reports are archived with each run.
 
 More detail: [how it works](docs/how-it-works.md).
 

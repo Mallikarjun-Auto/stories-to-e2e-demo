@@ -9,7 +9,7 @@ The tool itself is not part of this repository.
 
 ![Terminal replay of the pipeline](docs/img/replay.gif)
 
-Watch with a voice-over, API and screens: [short cut, about 1 minute](docs/img/replay-short.mp4) or [full version, about 2.5 minutes](docs/img/replay-full.mp4).
+Watch with a voice-over, API and screens: [short cut, just over 1 minute](docs/img/replay-short.mp4) or [full version, under 3 minutes](docs/img/replay-full.mp4).
 
 _The replay is a rendering of real output from the runs described below. It is not a live recording._
 

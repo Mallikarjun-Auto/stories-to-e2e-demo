@@ -43,7 +43,7 @@ flowchart LR
 8. **Runs continuously.** The suite is plain Robot Framework, so it runs nightly or on every change in Jenkins (open
    source), GitHub Actions or GitLab CI, and the reports are archived with each run.
 
-More detail: [how it works](docs/how-it-works.md).
+More detail: [project overview](docs/project-overview.md) (one page with an image), [how it works](docs/how-it-works.md).
 
 ## Results on a public application
 
